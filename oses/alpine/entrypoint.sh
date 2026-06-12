@@ -10,6 +10,6 @@ cd /home/container || exit 1
 
 PARSED=$(echo "${STARTUP}" | sed -e 's/{{/${/g' -e 's/}}/}/g' | eval echo "$(cat -)")
 
-printf "\033[1m\033[33mcontainer@pyrodactyl~ \033[0m%s\n" "$PARSED"
+printf "\033[1m\033[38;5;117m▶ play\033[38;5;253m@\033[38;5;117mzero \033[38;5;14m~ \033[0m%s\n" "$PARSED"
 
 exec env ${PARSED}
