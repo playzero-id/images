@@ -45,7 +45,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/pyrodactyl-oss/installers:${{ matrix.tag }}
+            ghcr.io/playzero-id/installers:${{ matrix.tag }}
 
   pushAmd:
     name: "images:installers_amd:${{ matrix.tag }}"
@@ -76,4 +76,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/pyrodactyl-oss/installers:${{ matrix.tag }}
+            ghcr.io/playzero-id/installers:${{ matrix.tag }}

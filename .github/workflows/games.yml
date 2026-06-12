@@ -38,4 +38,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/pyrodactyl-oss/games:${{ matrix.game }}
+            ghcr.io/playzero-id/games:${{ matrix.game }}
