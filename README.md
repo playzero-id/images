@@ -84,6 +84,8 @@ is tagged correctly.
     * `ghcr.io/playzero-id/images:java_17`
   * [`java17 - OpenJ9`](https://github.com/playzero-id/images/tree/master/java/17j9)
     * `ghcr.io/playzero-id/images:java_17j9`
+  * [`java17 - GraalVM CE`](https://github.com/playzero-id/images/tree/master/java/17graal)
+    * `ghcr.io/playzero-id/images:java_17graal`
   * [`java18`](https://github.com/playzero-id/images/tree/master/java/18)
     * `ghcr.io/playzero-id/images:java_18`
   * [`java18 - OpenJ9`](https://github.com/playzero-id/images/tree/master/java/18j9)
@@ -96,6 +98,8 @@ is tagged correctly.
     * `ghcr.io/playzero-id/images:java_21`
   * [`java21 - OpenJ9`](https://github.com/playzero-id/images/tree/master/java/21j9)
     * `ghcr.io/playzero-id/images:java_21j9`
+  * [`java21 - GraalVM CE`](https://github.com/playzero-id/images/tree/master/java/21graal)
+    * `ghcr.io/playzero-id/images:java_21graal`
   * [`java25`](https://github.com/playzero-id/images/tree/master/java/25)
     * `ghcr.io/playzero-id/images:java_25`
   * [`java25 - OpenJ9`](https://github.com/playzero-id/images/tree/master/java/25j9)
