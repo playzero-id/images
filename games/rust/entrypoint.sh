@@ -1,6 +1,9 @@
 #!/bin/bash
 cd /home/container
 
+# Print PlayZero.id boot banner
+printf "\033[1m\033[38;5;117m❄ PlayZero.id\033[0m\033[38;5;253m  │  tz: %s\033[0m\n" "${TZ:-UTC}"
+
 # Make internal Docker IP address available to processes.
 export INTERNAL_IP=`ip route get 1 | awk '{print $(NF-2);exit}'`
 
